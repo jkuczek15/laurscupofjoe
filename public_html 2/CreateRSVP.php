@@ -57,14 +57,14 @@ function sendConfirmationEmail($to_email, $name, $pithi_guests, $ganesh_sthapana
 		$phpMailer->Port = 587;
 		$phpMailer->isHTML(true);
 		$phpMailer->CharSet = "UTF-8";
-		$phpMailer->setFrom("questions@dna-2022.com", "Ami & Dhruv");
+		$phpMailer->setFrom("questions@dna-2022.com", "Ami & Jay");
 
 		$phpMailer->addAddress($to_email);
-		$phpMailer->Subject = "Thanks for responding to Ami & Dhruv's Wedding Invitation";
+		$phpMailer->Subject = "Thanks for responding to Ami & Jay's Wedding Invitation";
 
 		$body = "
 			<p>Thanks for the response, $name!</p>
-			<p>Keep this email for reference. It will let you update your response on Ami & Dhruv's <a href='https://dna-2022.com'>website.</a></p>";
+			<p>Keep this email for reference. It will let you update your response on Ami & Jay's <a href='https://dna-2022.com'>website.</a></p>";
 
 		if ($pithi_guests > 0 || $ganesh_sthapana_guests >0 || $garba_guests > 0 || $wedding_guests > 0 || $reception_guests > 0) {
 			$body .= "<p>Below are the number of guests you RSVP'd for:</p>
@@ -72,48 +72,35 @@ function sendConfirmationEmail($to_email, $name, $pithi_guests, $ganesh_sthapana
 
 			if ($pithi_guests > 0) {
 				$body .= "<li>Ganesh sthapana guests: $pithi_guests<br>"; 
-				$body .= "Date: 18th June 2022<br>";
-				$body .= "Time: 7:30AM onwards<br>";
-				$body .= "Address: 120 Littleton Rd E, Parsippany-Troy Hills, NJ 07054</li>";
+				$body .= "Date: 14th July 2024<br>";
+				$body .= "Time: 7:30 AM onwards<br>";
+				$body .= "Address: 1002 US-9, Woodbridge Township, NJ 07095</li>";
 			}
 			if ($ganesh_sthapana_guests > 0) {
 				$body .= "<li>Ganesh sthapana guests: $ganesh_sthapana_guests<br>";
-				$body .= "Date: 17th June 2022<br>";
-				$body .= "Time: 9AM onwards<br>";
-				$body .= "Address: 35 Emerson Road, Morris Plains, NJ 07950</li>";
+				$body .= "Date: 14th July 2024<br>";
+				$body .= "Time: 7:30 AM onwards<br>";
+				$body .= "Address: 1002 US-9, Woodbridge Township, NJ 07095</li>";
 			}
-			if ($garba_guests > 0) {
-				$body .= "<li>Garba guests: $garba_guests<br>";
-				$body .= "Date: 18th June 2022<br>";
-				$body .= "Time: 6PM onwards<br>";
-				$body .= "Address: 169 S Salem Street, Randolph NJ 07869</li>";
-			}
+			
 			if ($wedding_guests > 0) {
 				$body .= "<li>Wedding guests: $wedding_guests<br>";
-				$body .= "Date: 19th June 2022<br>";
-				$body .= "Time: 9AM onwards<br>";
-				$body .= "Address: 1 Hilton Ct, Parsippany-Troy Hills, NJ 07054</li>";
+				$body .= "Date: 14th July 2024<br>";
+				$body .= "Time: 4:30 PM onwards<br>";
+				$body .= "Address: 1002 US-9, Woodbridge Township, NJ 07095</li>";
 			}
-			if ($reception_guests > 0) {
-				$body .= "<li>Reception guests: $reception_guests<br>";
-				$body .= "Date: 19th June 2022<br>";
-				$body .= "Time: 6PM onwards<br>";
-				$body .= "Address: 1 Hilton Ct, Parsippany-Troy Hills, NJ 07054</li>";
-			}
-
+			
 			$body .= "</ul>";
 		} else {
 			$body .= "<p>We are sorry that you cannot make it to any of the events.</p>";
 		}
 
-		$body .= "<p>You have acknowledged our COVID-19 policy which is as follows:</p>";
-		$body .= "<p>COVID-19 VACCINATION POLICY. To maximize the safety of our beloved family and friends, as well as the venue staff, we have made the difficult decision to require complete COVID-19 vaccination for all guests. Verification of immunization may be required at each venue. Will you be fully vaccinated to COVID-19 before our wedding? (including at least 1 dose of the J&J vaccine OR at least 2 doses of the Pfizer or Moderna vaccines)</p>";
 
 		$body .= "We can't wait to celebrate our special day with you!";
 
 		$body .= "<br/>
 				  <p>Thank you,</p>
-				  <p>Ami & Dhruv</p>";
+				  <p>Ami & Jay</p>";
 
 		$phpMailer->Body = $body;
 		$phpMailer->IsHTML(true);

@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 	$result = mysqli_query($conn, $lookup_query);
 
 	if (mysqli_num_rows($result) === 0) {
-		echo "Combination of your Name and Phone number don't match, please try again with another family member's phone number. If that doesn't work, please contact Hansa Patel or Swati Shah to have your phone number added to the RSVP list.";
+		echo "Combination of your Name and Phone number don't match, please try again with another family member's phone number. If that doesn't work, please contact Hansa Patel or Bela Patel to have your phone number added to the RSVP list.";
 	} else {
 		$guest_limits = mysqli_fetch_assoc($result);
 		echo json_encode($guest_limits);

@@ -62,7 +62,7 @@ if ($entered_password !== $user_password) {
 	}
 
 	if ($side != '' && $side != null) {
-		if ($side === "Dhruv") {
+		if ($side === "Jay") {
 			$query .= " AND guest_side = 0";
 		} else {
 			$query .= " AND guest_side = 1";
@@ -96,7 +96,7 @@ if ($entered_password !== $user_password) {
 	    					<div class="col-md-6">
 	    						<select name="side" class="form-control" id="side">
 	    						  <option value="">Show all</option>
-								  <option value="Dhruv" <?= is_selected("Dhruv", $side)?>>Dhruv's side</option>
+								  <option value="Jay" <?= is_selected("Jay", $side)?>>Jay's side</option>
 								  <option value="Ami" <?= is_selected("Ami", $side)?>>Ami's side</option>
 								</select>
 	    					</div>	    					
@@ -124,10 +124,8 @@ if ($entered_password !== $user_password) {
 	    					<div class="col-md-6">
 	    						<select name="events[]" class="form-control" id="events" multiple>
 								  <option value="wedding" <?= is_selected("wedding", $events_selected)?>>Wedding</option>
-								  <option value="pithi" <?= is_selected("pithi", $events_selected)?>>Dhruv's Ganesh Sthapana</option>
+								  <option value="pithi" <?= is_selected("pithi", $events_selected)?>>Jay's Ganesh Sthapana</option>
 								  <option value="ganesh" <?= is_selected("ganesh", $events_selected)?>>Ami's Ganesh Sthapana</option>
-								  <option value="garba" <?= is_selected("garba", $events_selected)?>>Garba</option>
-								  <option value="reception"<?= is_selected("reception", $events_selected)?>>Reception</option>
 								</select>
 	    					</div>	    					
 	    					<div class="col-md-2">
@@ -144,11 +142,9 @@ if ($entered_password !== $user_password) {
 			      <th scope="col">Name</th>
 				  <th scope="col">Email</th>
 			      <th scope="col">Phone Number</th>
-			      <th scope="col">Guests for Dhruv's Ganesh Sthapana</th>
+			      <th scope="col">Guests for Jay's Ganesh Sthapana</th>
 			      <th scope="col">Guests for Ami's Ganesh Sthapana</th>
-			      <th scope="col">Guests for Garba</th>
 			      <th scope="col">Guests for Wedding</th>
-			      <th scope="col">Guests for Reception</th>
 			    </tr>
 			  </thead>
 			  <tbody>
@@ -161,9 +157,7 @@ if ($entered_password !== $user_password) {
 			      <td><?= $rsvp['phone_number'] ?></td>
 			      <td><?= $rsvp['pithi_guest_limit'] ?></td>
 			      <td><?= $rsvp['ganesh_sthapana_guest_limit'] ?></td>
-			      <td><?= $rsvp['garba_guest_limit'] ?></td>
 			      <td><?= $rsvp['wedding_guest_limit'] ?></td>
-			      <td><?= $rsvp['reception_guest_limit'] ?></td>
 			    </tr>
 			<?php
 			}

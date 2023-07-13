@@ -51,16 +51,15 @@
           <div class="display-t">
             <div class="display-tc animate-box" data-animate-effect="fadeIn">
               <h1>Ami &amp; Jay</h1>
-              <h2>We Are Getting Married</h2>
               <div class="simply-countdown simply-countdown-one"></div>
-              <!-- <p><a href="#" class="btn btn-default btn-sm">Save the date</a></p> -->
+              <h1 style="font-size: 30px"> July 14, 2024 </h1>
             </div>
           </div>
         </div>
       </div>
     </div>
   </header>
-  
+
 <div id="fh5co-couple-story">
     <div class="container">
       <div class="row">
@@ -153,22 +152,31 @@
     </div>
   </div>
 </div> -->
+
 <div class="ww-section ww-rsvp-detail text-white fh5co-heading" id="rsvp">
-  <div class="container" :data-aos="showRsvpPart1 ? 'zoom-in-up' : ''" :data-aos-duration="showRsvpPart1 ? '1000' : '0'">
-    <div class="col text-center" id="join-our-party" v-show="showRsvpPart1">
-      <h2 class="h1 ww-title pb-3" id="rsvp-title" data-aos="zoom-in-down" data-aos-duration="1000">RSVP</h2>
+    <div class="overlay"></div>
+    <div id="fh5co-started" class="fh5co-bg" style="background-image:url(images/img_bg_4.jpg);">
+    <div class="container">
+      <div class="row animate-box" style="justify-content: center;">
+        <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+          <h2>Are You Attending?</h2>
+          <p>Please fill out the RSVP form to notify us you're attending.</p>
+        </div>
+      </div>
     </div>
+  </div>
+  <div class="container" :data-aos="showRsvpPart1 ? 'zoom-in-up' : ''" :data-aos-duration="showRsvpPart1 ? '1000' : '0'">
     <div class="row ww-rsvp-form">
       <div class="col-md-10">
         <div class="card-body">
           <form action="CreateRSVP.php" method="POST" id="form-part-1" @submit.prevent="rsvpPart1Submit" v-show="showRsvpPart1">
-            <div class="row">
+<!--             <div class="row">
               <div class="col-md-3"></div>
               <div class="col-md-5 pb-3">
                 <div class="form-group">
                   <label for="name">Your Name*</label>
                   <select class="form-control autocomplete-select" name="name" id="name"
-                    placeholder="Type in the name on invitation..."
+                    placeholder="Type in the name on invitation"
                     data-url="LookupGuestNames.php" autocomplete="off" required></select>
                 </div>
               </div>
@@ -203,6 +211,28 @@
                 </div>
               </div>
               <div class="col-md-4"></div>
+            </div> -->
+            <div class="row" style="margin-left: -150px; margin-right: -130px; justify-content: center;">
+              <div class="col-md-3">
+                <div class="form-group">
+                  <label for="name">Your Name*</label>
+                  <select class="form-control autocomplete-select" name="name" id="name"
+                    placeholder= "Name on the invite"
+                    data-url="LookupGuestNames.php" autocomplete="off" required></select>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-group">
+                  <label for="email">Your Email*</label>
+                  <input class="form-control" id="email" type="email" name="email" required="required" v-model="form.email" />
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-group">
+                  <label for="phone_number">Your Phone Number*</label>
+                  <input class="form-control" id="phone_number" type='tel' pattern="[0-9\-]+" name="phone_number" required="required" v-model="form.phone_number" />
+                </div>
+              </div>
             </div>
             <div class="row">
               <div class="col-md-3"></div>
@@ -321,7 +351,7 @@
                 <div class="form-group">
                   <label for="events_name">Your Name*</label>
                   <select class="form-control autocomplete-select" name="name" id="events_name"
-                    placeholder="Type in the name on invitation..."
+                    placeholder="Name on the invite"
                     data-url="LookupGuestNames.php" autocomplete="off" required></select>
                 </div>
               </div>
@@ -367,9 +397,9 @@
         <div class="my-3">
           <div class="h4">Ganesh Sthapana</div>
           <ul>
-            <li><i class="text-muted fas fa-map-marker-alt"></i>&nbsp;&nbsp;<a class="pl-2 text-muted" href="https://www.google.com/maps/dir//vraj+bhumi+mandir+parsippany+nj/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x89c309f33cefc697:0xbc488fa7227f1877?sa=X&ved=2ahUKEwio9dP8oZb1AhWVoHIEHQCjDOMQ9Rd6BAg3EAQ" target="_blank">Vrajdham Parsippany, NJ </a></li>
-            <li><i class="text-muted fas fa-map-marked-alt"></i><a class="pl-2 text-muted" href="https://www.google.com/maps/dir//vraj+bhumi+mandir+parsippany+nj/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x89c309f33cefc697:0xbc488fa7227f1877?sa=X&ved=2ahUKEwio9dP8oZb1AhWVoHIEHQCjDOMQ9Rd6BAg3EAQ" target="_blank">120 Littleton Rd E, Parsippany-Troy Hills, NJ 07054</a></li>
-            <li class="pt-2"><i class="text-muted far fa-calendar-alt"></i><span class="pl-2 text-muted">18th June 2022, 7:30AM onwards</span></li>
+            <li><i class="text-muted fas fa-map-marker-alt"></i>&nbsp;&nbsp;<a class="pl-2 text-muted" href="https://www.google.com/maps/dir//lake+chaetau/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x89c3b5c72cae6d0d:0x62ed87b2edd864af?sa=X&ved=2ahUKEwipioHxroyAAxWSD1kFHb0TDdUQ9Rd6BAhFEAA&ved=2ahUKEwipioHxroyAAxWSD1kFHb0TDdUQ9Rd6BAhYEAU" target="_blank">Lake Chateau Banquets</a></li>
+            <li><i class="text-muted fas fa-map-marked-alt"></i><a class="pl-2 text-muted" href="https://www.google.com/maps/dir//lake+chaetau/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x89c3b5c72cae6d0d:0x62ed87b2edd864af?sa=X&ved=2ahUKEwipioHxroyAAxWSD1kFHb0TDdUQ9Rd6BAhFEAA&ved=2ahUKEwipioHxroyAAxWSD1kFHb0TDdUQ9Rd6BAhYEAU" target="_blank">1002 US-9, Woodbridge Township, NJ 07095</a></li>
+            <li class="pt-2"><i class="text-muted far fa-calendar-alt"></i><span class="pl-2 text-muted">14th July 2024, 7:30AM onwards</span></li>
             <li class="pt-2"><i class="fas fa-tshirt"></i><span class="pl-2 text-muted">Indian formal wear, would recommend a "Kurta" for men and "Saree" for women. Yellow color is preferred</span></li>
           </ul>
         </div>
@@ -379,21 +409,22 @@
       </div>
     </div>
 
-<!--     <div class="row" v-show="showGaneshEvent">
+    <div class="row" v-show="showGaneshEvent">
       <div class="col-md-7 col-sm-12">
         <div class="my-3">
           <div class="h4">Ganesh Sthapana</div>
-          <ul>
-            <li><i class="text-muted fas fa-map-marked-alt"></i><a class="pl-2 text-muted" href="https://www.google.com/maps/dir//35+Emerson+Rd,+Morris+Plains,+NJ+07950/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x89c3a748c890d17f:0x753be8d61f1191a2?sa=X&ved=2ahUKEwi8oPvdpJn1AhXzoHIEHcX4CdMQwwV6BAgIEAM" target="_blank">35 Emerson Road, Morris Plains, NJ 07950</a></li>
-            <li class="pt-2"><i class="text-muted far fa-calendar-alt"></i><span class="pl-2 text-muted">17th June 2022, 9AM onwards</span></li>
-            <li class="pt-2"><i class="fas fa-tshirt"></i><span class="pl-2 text-muted">Indian formal recommended.</span></li>
+        <ul>
+            <li><i class="text-muted fas fa-map-marker-alt"></i>&nbsp;&nbsp;<a class="pl-2 text-muted" href="https://www.google.com/maps/dir//lake+chaetau/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x89c3b5c72cae6d0:0x62ed87b2edd864af?sa=X&ved=2ahUKEwipioHxroyAAxWSD1kFHb0TDdUQ9Rd6BAhFEAA&ved=2ahUKEwipioHxroyAAxWSD1kFHb0TDdUQ9Rd6BAhYEAU" target="_blank">Lake Chateau Banquets</a></li>
+            <li><i class="text-muted fas fa-map-marked-alt"></i><a class="pl-2 text-muted" href="https://www.google.com/maps/dir//lake+chaetau/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x89c3b5c72cae6d0d:0x62ed87b2edd864af?sa=X&ved=2ahUKEwipioHxroyAAxWSD1kFHb0TDdUQ9Rd6BAhFEAA&ved=2ahUKEwipioHxroyAAxWSD1kFHb0TDdUQ9Rd6BAhYEAU" target="_blank">1002 US-9, Woodbridge Township, NJ 07095</a></li>
+            <li class="pt-2"><i class="text-muted far fa-calendar-alt"></i><span class="pl-2 text-muted">14th July 2024, 7:30AM onwards</span></li>
+            <li class="pt-2"><i class="fas fa-tshirt"></i><span class="pl-2 text-muted">Indian formal wear, would recommend a "Kurta" for men and "Saree" for women. Yellow color is preferred</span></li>
           </ul>
         </div>
       </div>
       <div class="col-md-5 col-sm-12">
         <div class="my-3"><img class="img-fluid events-image" src="images/Ganesh.jpg" alt="Garba Night" data-aos="fade-down-right" data-aos-duration="1000"/></div>
       </div>
-    </div> -->
+    </div>
 
     <!-- <div class="row" v-show="showGarbaEvent">
       <div class="col-md-7 col-sm-12">
@@ -416,16 +447,15 @@
         <div class="my-3">
           <div class="h4">Wedding</div>
           <ul>
-            <li><i class="text-muted fas fa-map-marker-alt"></i>&nbsp;&nbsp;<a class="pl-2 text-muted" href="https://www.google.com/maps/dir//hilton+parsippany/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x89c3a77528ddfef9:0xc1560fea26c63ff8?sa=X&ved=2ahUKEwjoo4qzi8T2AhWWPM0KHZSRBQkQ9Rd6BAg5EAQ" target="_blank">Hilton, Parsipanny, NJ</a></li>
-            <li><i class="text-muted fas fa-map-marked-alt"></i><a class="pl-2 text-muted" href="https://www.google.com/maps/dir//hilton+parsippany/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x89c3a77528ddfef9:0xc1560fea26c63ff8?sa=X&ved=2ahUKEwjoo4qzi8T2AhWWPM0KHZSRBQkQ9Rd6BAg5EAQ" target="_blank">1 Hilton Ct, Parsippany-Troy Hills, NJ 07054</a></li>
-            <li class="pt-2"><i class="text-muted far fa-calendar-alt "></i><span class="pl-2 text-muted">19th June 2022, 9AM onwards</span>
-            </li>
+            <li><i class="text-muted fas fa-map-marker-alt"></i>&nbsp;&nbsp;<a class="pl-2 text-muted" href="https://www.google.com/maps/dir//lake+chaetau/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x89c3b5c72cae6d0d:0x62ed87b2edd864af?sa=X&ved=2ahUKEwipioHxroyAAxWSD1kFHb0TDdUQ9Rd6BAhFEAA&ved=2ahUKEwipioHxroyAAxWSD1kFHb0TDdUQ9Rd6BAhYEAU" target="_blank">Lake Chateau Banquets</a></li>
+            <li><i class="text-muted fas fa-map-marked-alt"></i><a class="pl-2 text-muted" href="https://www.google.com/maps/dir//lake+chaetau/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x89c3b5c72cae6d0d:0x62ed87b2edd864af?sa=X&ved=2ahUKEwipioHxroyAAxWSD1kFHb0TDdUQ9Rd6BAhFEAA&ved=2ahUKEwipioHxroyAAxWSD1kFHb0TDdUQ9Rd6BAhYEAU" target="_blank">1002 US-9, Woodbridge Township, NJ 07095</a></li>
+            <li class="pt-2"><i class="text-muted far fa-calendar-alt"></i><span class="pl-2 text-muted">14th July 2024, 4:30PM onwards</span></li>
             <li class="pt-2"><i class="fas fa-tshirt"></i><span class="pl-2 text-muted">Indian or American formal wear</span></li>
           </ul>
         </div>
       </div>
       <div class="col-md-5 col-sm-12">
-        <div class="my-3"><img class="img-fluid events-image" src="images/wedding-party.jpg" alt="Reception" data-aos="fade-up-right" data-aos-duration="1000"/></div>
+        <div class="my-3"><img class="img-fluid events-image" src="images/wedding.jpg" alt="Reception" data-aos="fade-up-right" data-aos-duration="1000"/></div>
       </div>
     </div>
     <!-- <div class="row" v-show="showReceptionEvent">
@@ -603,10 +633,10 @@
             });
           },
           rsvpPart2Submit: function() {
-            if (!this.form.covid_checked) {
-              alert('Please check the COVID-19 acknowledgement checkbox.')
-              return;
-            }
+            // if (!this.form.covid_checked) {
+            //   alert('Please check the COVID-19 acknowledgement checkbox.')
+            //   return;
+            // }
             let form = {
               ...this.form,
               name: this.formattedName(),
@@ -755,13 +785,13 @@
         day: 14,
     });
 
-    //jQuery example
-    $('#simply-countdown-losange').simplyCountdown({
-        year: 2024,
-        month: 7,
-        day: 14,
-        enableUtc: false
-    });
+    // //jQuery example
+    // $('#simply-countdown-losange').simplyCountdown({
+    //     year: 2024,
+    //     month: 7,
+    //     day: 14,
+    //     enableUtc: false
+    // });
 </script>
 
 </html>

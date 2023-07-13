@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ami and Jay Engagement Party</title>
+    <title>Ami and Jay Wedding</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&amp;display=swap"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&amp;display=swap" media="print" onload="this.media='all'"/>
@@ -78,7 +78,7 @@
                 <li>Once you enter all the information, click on Next. You will see the total number of invitations 
                 for you and your family for each event.  Please select the number of people who will be attending 
                 each event. You must also acknowledge our COVID-19 policy to successfully submit the RSVP to us.</li>
-                <li>You will then be sent an email from our system to confirm your RSVP. The email will have a link to the website where you can update your RSVP information in case anything changes. Please check your junk/spam folder if you have not recevied any email from us. All the emails will be coming from <a href="mailto: questions@dna-2022.com">questions@dna-2022.com</a></li>
+                <li>You will then be sent an email from our system to confirm your RSVP. The email will have a link to the website where you can update your RSVP information in case anything changes. Please check your junk/spam folder if you have not recevied any email from us. All the emails will be coming from <a href="mailto: ajp010121@gmail.com">ajp010121@gmail.com</a></li>
               </p>
             </div>
           </div>
@@ -115,7 +115,7 @@
           <div class="col-md-12">
             <div class="card-body">
               <h5 class="card-title">How do I book a hotel reservation?</h5>
-              <p class="card-text">Last Day to Book using our reservation link for a discounted rate: <strong>May 27, 2022</strong> <br/><br/>
+              <p class="card-text">Last Day to Book using our reservation link for a discounted rate: <strong>June 1, 2024</strong> <br/><br/>
               Most of the wedding festivities will occur at the Hilton Hotel. We encourage everyone to stay at the hotel using our special reservation rate for your convenience. Up to 4 people can stay in each room! Please use group code, PATEL under "Special Rates" to get a discounted rate. 
               <p>You can book accommodations by clicking <a href="https://www.hilton.com/en/book/reservation/rooms/?ctyhocn=EWRPHHF&arrivalDate=2022-06-17&departureDate=2022-06-20&room1NumAdults=1&cid=OM%2CWW%2CHILTONLINK%2CEN%2CDirectLink" target="_blank">HERE</a></p> </p>
             </div>
@@ -215,7 +215,7 @@
           <div class="col-md-12">
             <div class="card-body">
               <h5 class="card-title">I have a question not answered here; how do I contact you?</h5>
-              <p class="card-text">Please reach out to us at <a href="mailto: questions@dna-2022.com">questions@dna-2022.com</a> for any additional questions you have!</p>
+              <p class="card-text">Please reach out to us at <a href="mailto: qajp010121@gmail.com">ajp010121@gmail.com</a> for any additional questions you have!</p>
             </div>
           </div>
         </div>
