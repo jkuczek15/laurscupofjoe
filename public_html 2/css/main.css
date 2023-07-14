@@ -100,9 +100,20 @@ body {
     transform: scale(1); } }
 
 .ww-nav-bar .nav-item {
-  font-size: 18px;
+/*  font-size: 18px;*/
   padding: 5px 0 5px 16px;
-  font-weight: 500; }
+/*  font-weight: 500; */
+}
+.nav-link {
+  color: white !important;  
+}
+.navbar-toggler {
+  background-color: rgba(245, 138, 119, 0.7) !important;
+}
+.letsjam {
+  font-family: "Sacramento", Arial, serif;
+  font-size: 36px !important;
+}
 
 /* Wedding Event Style */
 .ww-wedding-event ul {

@@ -175,5 +175,10 @@
   <script src="scripts/stars.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/xcash/bootstrap-autocomplete@v2.3.7/dist/latest/bootstrap-autocomplete.min.js"></script>
 </body>
+<style>
+  .nav-link {
+    color: #f26147 !important;
+  }
+</style>
 
 </html>

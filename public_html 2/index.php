@@ -39,12 +39,14 @@
   <body>
     <div class="page-content" id="vue-app">
       <div class="div" id="page">
+        <div class="fh5co-cover" style="background-image:url(images/home-img.jpg);" >
+          <div class="overlay"></div>
+
 <?php
   include("header.html");
 ?>
 
-  <header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/home-img.jpg);" data-stellar-background-ratio="0.5">
-    <div class="overlay"></div>
+  <header id="fh5co-header" class="fh5co-cover" role="banner" data-stellar-background-ratio="0.5">
     <div class="container">
       <div class="row header-row">
         <div class="col-md-8 col-md-offset-2 text-center">
@@ -59,8 +61,9 @@
       </div>
     </div>
   </header>
+</div>
 
-<div id="fh5co-couple-story">
+<div id="fh5co-couple-story" style="padding-bottom: 0px !important">
     <div class="container">
       <div class="row">
         <div class="col-md-12 col-md-offset-2 text-center fh5co-heading animate-box" id="couple">
@@ -153,11 +156,11 @@
   </div>
 </div> -->
 
-<div class="ww-section ww-rsvp-detail text-white fh5co-heading" id="rsvp">
+<div class="ww-section ww-rsvp-detail text-white fh5co-heading" id="rsvp" style="padding-bottom: 0px; margin-bottom: 0em !important">
     <div class="overlay"></div>
     <div id="fh5co-started" class="fh5co-bg" style="background-image:url(images/img_bg_4.jpg);">
     <div class="container">
-      <div class="row animate-box" style="justify-content: center;">
+      <div class="row animate-box desktop-only-small-margin" style="justify-content: center;">
         <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
           <h2>Are You Attending?</h2>
           <p>Please fill out the RSVP form to notify us you're attending.</p>
@@ -212,7 +215,7 @@
               </div>
               <div class="col-md-4"></div>
             </div> -->
-            <div class="row" style="margin-left: -150px; margin-right: -130px; justify-content: center;">
+            <div class="row desktop-only-margin" style="justify-content: center;">
               <div class="col-md-3">
                 <div class="form-group">
                   <label for="name">Your Name*</label>
@@ -242,7 +245,7 @@
               <div class="col-md-4"></div>
             </div>
           </form>
-          <form action="CreateRSVP.php" method="POST" id="form-part-2" class="form-part-2" @submit.prevent="rsvpPart2Submit" v-show="showRsvpPart2">
+          <form action="CreateRSVP.php" method="POST" id="form-part-2" class="form-part-2" @submit.prevent="rsvpPart2Submit" v-show="showRsvpPart2" style="color:white">
             <h2 class="h1 ww-title pb-3 rsvp-text">{{ formattedName() }}, below are the number of invitations for your family. Please select the total number of people attending each event. Thank You!</h2>
             <div class="row" v-show="guest_limits.pithi_guest_limit > 0">
               <div class="col-md-3"></div>
@@ -344,8 +347,8 @@
             </div>
           </form>
           <form action="LookupGuests.php" method="POST" id="form-part-3" @submit.prevent="eventsFormSubmit" v-show="showGuestEventsForm">
-            <h2 class="h1 ww-title pb-3 rsvp-text" id="events-form-title">Please enter your information below to view your event details.</h2>
-            <div class="row">
+            <h2 class="h1 ww-title pb-3 rsvp-text" id="events-form-title" style="color:white">Please enter your information below to view your event details.</h2>
+<!--             <div class="row">
               <div class="col-md-3"></div>
               <div class="col-md-5 pb-3">
                 <div class="form-group">
@@ -366,6 +369,22 @@
                 </div>
               </div>
               <div class="col-md-4"></div>
+            </div> -->
+            <div class="row desktop-only-margin" style="justify-content: center;">
+              <div class="col-md-5">
+                <div class="form-group">
+                  <label for="events_name">Your Name*</label>
+                  <select class="form-control autocomplete-select" name="name" id="events_name"
+                    placeholder="Name on the invite"
+                    data-url="LookupGuestNames.php" autocomplete="off" required></select>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <div class="form-group">
+                  <label for="events_phone_number">Your Phone Number*</label>
+                  <input class="form-control" id="events_phone_number" type='tel' pattern="[0-9\-]+" name="phone_number" required="required" v-model="eventsForm.phone_number" />
+                </div>
+              </div>
             </div>
             <div class="row">
               <div class="col-md-3"></div>
@@ -389,7 +408,7 @@
     </div>
   </div>
 </div>
-<div class="ww-section bg-light" id="events-section" v-show="showAllEvents">
+<div class="ww-section bg-light" id="events-section" v-show="showAllEvents" style="padding-top 0px; padding-bottom: 0px">
   <div class="container ww-wedding-event">
     <h2 class="h1 text-center pb-3 ww-title" data-aos="zoom-in-down" data-aos-duration="1000">Events</h2>
     <div class="row" v-show="showPithiEvent">
@@ -405,7 +424,7 @@
         </div>
       </div>
       <div class="col-md-5 col-sm-12">
-        <div class="my-3"><img class="img-fluid events-image" src="images/Vidhi.jpg" alt="Vidhi" data-aos="fade-down-right" data-aos-duration="1000"/></div>
+        <div class="my-3"><img class="img-fluid events-image" src="images/Ganesh.jpg" alt="Vidhi" data-aos="fade-down-right" data-aos-duration="1000"/></div>
       </div>
     </div>
 
@@ -422,7 +441,7 @@
         </div>
       </div>
       <div class="col-md-5 col-sm-12">
-        <div class="my-3"><img class="img-fluid events-image" src="images/Ganesh.jpg" alt="Garba Night" data-aos="fade-down-right" data-aos-duration="1000"/></div>
+        <div class="my-3"><img class="img-fluid events-image" src="images/Ganesh.jpg" alt="Ganesh Event" data-aos="fade-down-right" data-aos-duration="1000"/></div>
       </div>
     </div>
 
@@ -455,31 +474,14 @@
         </div>
       </div>
       <div class="col-md-5 col-sm-12">
-        <div class="my-3"><img class="img-fluid events-image" src="images/wedding.jpg" alt="Reception" data-aos="fade-up-right" data-aos-duration="1000"/></div>
+        <div class="my-3"><img class="img-fluid events-image" src="images/wedding.jpg" alt="wedding" data-aos="fade-up-right" data-aos-duration="1000"/></div>
       </div>
     </div>
-    <!-- <div class="row" v-show="showReceptionEvent">
-      <div class="col-md-7 col-sm-12">
-        <div class="my-3">
-          <div class="h4">Reception</div>
-          <ul>
-            <li><i class="text-muted fas fa-map-marker-alt"></i>&nbsp;&nbsp;<a class="pl-2 text-muted" href="https://www.google.com/maps/dir//hilton+parsippany/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x89c3a77528ddfef9:0xc1560fea26c63ff8?sa=X&ved=2ahUKEwjoo4qzi8T2AhWWPM0KHZSRBQkQ9Rd6BAg5EAQ" target="_blank">Hilton, Parsipanny, NJ</a></li>
-            <li><i class="text-muted fas fa-map-marked-alt"></i><a class="pl-2 text-muted" href="https://www.google.com/maps/dir//hilton+parsippany/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x89c3a77528ddfef9:0xc1560fea26c63ff8?sa=X&ved=2ahUKEwjoo4qzi8T2AhWWPM0KHZSRBQkQ9Rd6BAg5EAQ" target="_blank">1 Hilton Ct, Parsippany-Troy Hills, NJ 07054</a></li>
-            <li class="pt-2"><i class="text-muted far fa-calendar-alt "></i><span class="pl-2 text-muted">29th October 2022, 6PM onwards</span>
-            </li>
-            <li class="pt-2"><i class="fas fa-tshirt"></i><span class="pl-2 text-muted">Black tie event</span></li></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-5 col-sm-12">
-        <div class="my-3"><img class="img-fluid events-image" src="images/reception.jpg" alt="Reception" data-aos="fade-up-right" data-aos-duration="1000"/></div>
-      </div> -->
     </div>
   </div>
 </div>
     </div>
   </div>
-    <footer></footer>
     <script src="scripts/jquery.min.js?ver=1.1.0"></script>
     <script src="scripts/bootstrap.bundle.min.js?ver=1.1.0"></script>
     <script src="scripts/aos.js?ver=1.1.0"></script>
@@ -697,6 +699,7 @@
         font-family: "Great Vibes" !important;
         font-size: 40px !important;
         text-align: center;
+        color: white !important;
       }
       #rsvp-thank-you {
         margin: auto;
@@ -705,6 +708,13 @@
       @media only screen and (min-width: 768px) {
         .right-margin-negative {
           margin-right: -80px !important;
+        }
+        .desktop-only-margin {
+          margin-left: -150px;
+          margin-right: -130px; 
+        }
+        .desktop-only-small-margin {
+          margin-left: 35px; 
         }
         .big-button {
           width: 175px;
@@ -741,6 +751,11 @@
           text-align: center;
           margin-bottom: -5px;
         }
+        .mobile-only-small-padding {
+          padding-left: 20px;
+        } 
+
+
       }
       .big-button {
         -webkit-transition-property: none !important;
@@ -756,7 +771,7 @@
       .bootstrap-autocomplete.dropdown-menu {
         width: 90% !important;
         left: 15px !important;
-        top: 65px !important;
+        top: 87px !important;
       }
       .days-to-go {
         font-size: 40px;
