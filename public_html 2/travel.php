@@ -48,7 +48,7 @@
       </div>
     </div>
 
-    <!-- <div class="row">
+    <div class="row">
       <div class="col-md-12" style="display: flex; justify-content: center; margin-top: 5px">
         <div class="card mb-3" style="width: 650px;">
         <div class="row no-gutters">
@@ -84,7 +84,7 @@
         </div>
       </div>
     </div>
-</div> -->
+</div>
 
     <div class="row">
       <div class="col-md-12" style="display: flex; justify-content: center; margin-top: 5px">

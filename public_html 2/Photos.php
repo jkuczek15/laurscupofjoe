@@ -23,6 +23,8 @@
     <noscript>
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Great+Vibes&amp;display=swap"/>
     </noscript>
+
+    <link href='https://fonts.googleapis.com/css?family=Sacramento' rel='stylesheet'>
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
@@ -42,15 +44,15 @@
     </noscript>
   </head>
   <body id="top">
-    <header></header>
-    <div class="page-content">
-      <div class="div">
 <?php
   include("header.html");
 ?>
+    <header></header>
+    <div class="page-content fh5co-heading">
+      <div class="div">
   <div class="row">
     <div class="col-md-12">
-      <h2 class="h1 text-center pb-3 ww-title" style="margin-top: 40px">Photos</h2>
+      <h2 class="h1 text-center pb-3 ww-title fh5co-heading" style="margin-top: 40px">Photos</h2>
     </div>
   </div>
   <div class="row">
@@ -80,6 +82,10 @@
   <script src="https://cdn.jsdelivr.net/gh/xcash/bootstrap-autocomplete@v2.3.7/dist/latest/bootstrap-autocomplete.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
 <style>
+  .nav-link {
+    color: #f26147 !important;
+  }
+
 .photo-gallery {
   color:#313437;
   background-color:#fff;
