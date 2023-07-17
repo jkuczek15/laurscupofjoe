@@ -70,6 +70,12 @@ function sendConfirmationEmail($to_email, $name, $pithi_guests, $ganesh_sthapana
 			$body .= "<p>Below are the number of guests you RSVP'd for:</p>
 						<ul>";
 
+			if ($garba_guests > 0) {
+				$body .= "<li>Mehndi guests: $garba_guests<br>";
+				$body .= "Date: 13th July 2024<br>";
+				$body .= "Time: 6PM onwards<br>";
+				$body .= "Address: 963 Clarke Rd, North Brunswick, NJ 08902</li>";
+			}
 			if ($pithi_guests > 0) {
 				$body .= "<li>Ganesh sthapana guests: $pithi_guests<br>"; 
 				$body .= "Date: 14th July 2024<br>";
@@ -82,7 +88,6 @@ function sendConfirmationEmail($to_email, $name, $pithi_guests, $ganesh_sthapana
 				$body .= "Time: 7:30 AM onwards<br>";
 				$body .= "Address: 1002 US-9, Woodbridge Township, NJ 07095</li>";
 			}
-			
 			if ($wedding_guests > 0) {
 				$body .= "<li>Wedding guests: $wedding_guests<br>";
 				$body .= "Date: 14th July 2024<br>";

@@ -123,6 +123,7 @@ if ($entered_password !== $user_password) {
 	    					</div> 					
 	    					<div class="col-md-6">
 	    						<select name="events[]" class="form-control" id="events" multiple>
+	    						  <option value="garba" <?= is_selected("garba", $events_selected)?>>Garba</option>
 								  <option value="wedding" <?= is_selected("wedding", $events_selected)?>>Wedding</option>
 								  <option value="pithi" <?= is_selected("pithi", $events_selected)?>>Jay's Ganesh Sthapana</option>
 								  <option value="ganesh" <?= is_selected("ganesh", $events_selected)?>>Ami's Ganesh Sthapana</option>
@@ -142,9 +143,11 @@ if ($entered_password !== $user_password) {
 			      <th scope="col">Name</th>
 				  <th scope="col">Email</th>
 			      <th scope="col">Phone Number</th>
+			      <th scope="col">Guests for Mehndi</th>
 			      <th scope="col">Guests for Jay's Ganesh Sthapana</th>
 			      <th scope="col">Guests for Ami's Ganesh Sthapana</th>
 			      <th scope="col">Guests for Wedding</th>
+
 			    </tr>
 			  </thead>
 			  <tbody>
@@ -155,6 +158,7 @@ if ($entered_password !== $user_password) {
 			      <td><?= $rsvp['name'] ?></td>
 				  <td><?= $rsvp['email'] ?></td>
 			      <td><?= $rsvp['phone_number'] ?></td>
+			      <td><?= $rsvp['garba_guest_limit'] ?></td>
 			      <td><?= $rsvp['pithi_guest_limit'] ?></td>
 			      <td><?= $rsvp['ganesh_sthapana_guest_limit'] ?></td>
 			      <td><?= $rsvp['wedding_guest_limit'] ?></td>
