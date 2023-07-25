@@ -462,7 +462,6 @@
 
             setTimeout(() => {
               $('html, body').animate({
-                //scrollTop: $('#rsvp-title').offset().top - 70
                 scrollTop: $('.ww-rsvp-form').offset().top
               }, 2000);  
             }, 200);
@@ -488,12 +487,17 @@
               this.guest_limits.reception_guest_limit = parseInt(response.reception_guest_limit);
               this.showRsvpPart1 = false;
               this.showRsvpPart2 = true;
+              setTimeout(() => {
+              $('html, body').animate({
+                scrollTop: $('.form-part-2').offset().top
+              }, 2000);  
+            }, 200);
             })
             .fail(function(error) {
               alert(error.responseText);
             });
           },
-          rsvpPart2Submit: function() {
+          rsvpPart2Submit: async function() {
             // if (!this.form.covid_checked) {
             //   alert('Please check the COVID-19 acknowledgement checkbox.')
             //   return;
@@ -504,13 +508,14 @@
               phone_number: this.formattedPhoneNumber()
             };
             this.rsvpLoading = true;
-            $.post("CreateRSVP.php", form, (response) => {
+            $.post("CreateRSVP.php", form, async (response) => {
               this.rsvpLoading = false;
               if (response === "OK") {
                 this.showRsvpPart2 = false;
                 this.showRsvpThankYou = true;
                 this.showEvents = true;
-                this.navigateToEvents(true);
+                await this.navigateToEvents(true);
+                myalert();
               }
             });
           },
@@ -534,16 +539,16 @@
               alert(error.responseText);
             });
           },
-          navigateToEvents: function(fromRSVP=false) {
+          navigateToEvents: async function(fromRSVP=false) {
             let element = '#rsvp';
             if (this.showAllEvents)
               element = '#events-section';
 
-            setTimeout(() => {
-              $('html, body').animate({
-                  scrollTop: $(element).offset().top + (fromRSVP ? 0 : 425)
-              }, 2000);
-            }, 200)
+            await new Promise(resolve => setTimeout(resolve, 200));
+
+            await $('html, body').animate({
+              scrollTop: $(element).offset().top + (fromRSVP ? 0 : 425)
+            }, 2000).promise();
           }
         }
       });
@@ -671,5 +676,12 @@
         day: 14,
     });
 </script>
+
+<script>
+  function myalert()
+  {
+    alert("We have sent an email confirmation to the email provided, please check your junk or spam if you haven't received it.");
+  }
+  </script>
 
 </html>
