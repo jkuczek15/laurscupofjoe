@@ -30,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 	mysqli_query($conn, $query);
 }
 
-$page_password = "JnA9698";
+$page_password = "309216121417";
 $entered_password = isset($_GET['password']) ? $_GET['password'] : null;
 
 if (isset($_POST['password']) && $_POST['password'] != null) {

@@ -1,5 +1,5 @@
 <?php
-  $image_dir = '/images/AJ pictures';
+  $image_dir = '/images/LJPictures';
   $full_dir = getcwd() . $image_dir;
   $images = scandir($full_dir);
   $images = array_diff($images, array('.', '..', '.DS_Store'));
@@ -10,7 +10,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ami and Jay Wedding</title>
+    <title>Lauren & Joe's Wedding</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&amp;display=swap"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&amp;display=swap" media="print" onload="this.media='all'"/>
@@ -28,6 +28,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
     <link href="css/font-awesome/css/all.min.css?ver=1.1.0" rel="stylesheet">
     <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
@@ -83,7 +84,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
 <style>
   .nav-link {
-    color: #f26147 !important;
+    color: #cfa8f0 !important;
   }
 
 .photo-gallery {

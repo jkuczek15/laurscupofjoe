@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ami and Jay Wedding</title>
+    <title>Lauren & Joe's Wedding</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&amp;display=swap"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&amp;display=swap" media="print" onload="this.media='all'"/>
@@ -21,6 +21,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
     <link href="css/font-awesome/css/all.min.css?ver=1.1.0" rel="stylesheet">
     <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
@@ -53,11 +54,12 @@
         <div class="card mb-3" style="width: 650px;">
         <div class="row no-gutters">
           <div class="col-md-4" style="display: flex; justify-content: left;">
-            <img width="90px" style="padding-left: 20px" data-css-wpulrz="" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzOSIgaGVpZ2h0PSI0MCIgdmlld0JveD0iMCAwIDM5IDQwIj4KICAgIDxwYXRoIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlPSIjMzMzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS13aWR0aD0iMS4yNSIgZD0iTTE5LjUgMS4yNUM5LjI4MyAxLjI1IDEgOC42OTggMSAxNy44ODZjMCA0LjI1NSAxLjc5MiA4LjEyNCA0LjcxNCAxMS4wNjZMMy4xMTggMzcuODZjLS4xNjguNzMuMzgyIDEuMTM0Ljk4OC43M2w3LjE3NS01LjgxOGEyMC4wNyAyMC4wNyAwIDAgMCA4LjIxOSAxLjc1YzEwLjIxNyAwIDE4LjUtNy40NDkgMTguNS0xNi42MzZDMzggOC42OTggMjkuNzE3IDEuMjUgMTkuNSAxLjI1eiIvPgo8L3N2Zz4K" alt="flights">
+            <img width="90px" style="padding-left: 20px" data-css-wpulrz="" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzOSIgaGVpZ2h0PSIzOCIgdmlld0JveD0iMCAwIDM5IDM4Ij4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlPSIjMzMzIiBzdHJva2Utd2lkdGg9IjEuMjUiPgogICAgICAgIDxwYXRoIGQ9Ik0yOS40MSAxMi44NTZhMTY3Ljc2NyAxNjcuNzY3IDAgMCAwIDUuMjAzLTQuNjEzYzMuMTI2LTIuOCA0LjE5LTUuNzgyIDIuOTItNy4wNzMtMS4yNy0xLjI5LTQuMjYyLS4yNjctNy4xMSAyLjgwMmExNjIuMjk0IDE2Mi4yOTQgMCAwIDAtNC4zOTIgNC43NThDMTMuNzE5IDYuNzQgOC44NjUgNS4wNjYgOC42MTQgNi41MDljLS4yMSAxLjIwNCAxMC41NzIgNy42MDggMTAuNTcyIDcuNjA4LTIuMjc4IDIuNDctNC41NTYgNS45NDItNi44MzUgOC40MTMtMS40MDEuMzYtMi44MDIuNzIzLTQuMjAzIDEuMDg0LS44NDMuMzU0LS43MiAxLjE0OS4yMiAxLjQzbDMuOTk0LjkyYy4yOCAxLjMzNy41NiAyLjY3NC44NDIgNC4wMS4yNjMuOTQ3IDEuMDU1IDEuMDg1IDEuNDI2LjI0OS4zNjctMS40My43MzUtMy44NjEgMS4xMDItNS4yOTIgMi44MDItMi41MzIgOC4yMTktNi40MTQgOC4yMTktNi40MTRzNi4xMTkgMTEuMjg2IDcuMzE4IDExLjA5YzEuNDQtLjIzNi0uMTMtNC44ODYtMS44Ni0xNi43NTF6Ii8+CiAgICAgICAgPHBhdGggc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBkPSJNNy41MSAzMC4xMTdMMS44IDM1LjcxOU05LjE5MiAxNy4yMDRMLjYyNSAyNS42MDdNMjEuMzk2IDI4LjYyN2wtOC41NjcgOC40MDMiLz4KICAgIDwvZz4KPC9zdmc+Cg==" alt="flights">
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <p class="card-text">Summer is peak wedding season in NJ. Please make your arrangements as soon as possible for the best rates and availability.</p>
+              <h5 class="card-title">Getting In</h5>
+              <p class="card-text">If you are coming from outside of the Midwest, we recommend flying into O'Hare International Airport (ORD). It is about a 30 minute drive to the Hyatt Lodge in Oak Brook</p>
             </div>
           </div>
         </div>
@@ -74,10 +76,10 @@
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">Staying at The Marriott Hotel</h5>
-              <p class="card-text">Last Day to Book using our reservation link: <strong>June 1, 2024</strong> <br/><br/>
-              Most of the wedding festivities will occur at a hall next to Marriott Hotel. We encourage everyone to stay at the hotel using our special reservation rate for your convenience. Up to 4 people can stay in each room! Please use group code, PATEL under "Special Rates" to get a discounted rate. 
-              <p>You can book accommodations by clicking <a href="https://www.marriott.com/en-us/hotels/ewrsd-springhill-suites-woodbridge/overview/"target="_blank">HERE</a></p>
+              <h5 class="card-title">Staying at the Hyatt Lodge in Oak Brook</h5>
+              <p class="card-text">Last Day to Book using our reservation link: <strong>June 1, 2025</strong> <br/><br/>
+              All of the wedding festivities will be taking place at the hotel. You can use our discounted link to book your reservation. It is not required to stay at the hotel.
+              <p>You can book accommodations by clicking <a href="#"target="_blank">HERE</a></p>
               </p>
             </div>
           </div>
@@ -86,23 +88,7 @@
     </div>
 </div>
 
-    <div class="row">
-      <div class="col-md-12" style="display: flex; justify-content: center; margin-top: 5px">
-        <div class="card mb-3" style="width: 650px;">
-        <div class="row no-gutters">
-          <div class="col-md-4" style="display: flex; justify-content: left;">
-            <img width="90px" style="padding-left: 20px" data-css-wpulrz="" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzOSIgaGVpZ2h0PSIzOCIgdmlld0JveD0iMCAwIDM5IDM4Ij4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlPSIjMzMzIiBzdHJva2Utd2lkdGg9IjEuMjUiPgogICAgICAgIDxwYXRoIGQ9Ik0yOS40MSAxMi44NTZhMTY3Ljc2NyAxNjcuNzY3IDAgMCAwIDUuMjAzLTQuNjEzYzMuMTI2LTIuOCA0LjE5LTUuNzgyIDIuOTItNy4wNzMtMS4yNy0xLjI5LTQuMjYyLS4yNjctNy4xMSAyLjgwMmExNjIuMjk0IDE2Mi4yOTQgMCAwIDAtNC4zOTIgNC43NThDMTMuNzE5IDYuNzQgOC44NjUgNS4wNjYgOC42MTQgNi41MDljLS4yMSAxLjIwNCAxMC41NzIgNy42MDggMTAuNTcyIDcuNjA4LTIuMjc4IDIuNDctNC41NTYgNS45NDItNi44MzUgOC40MTMtMS40MDEuMzYtMi44MDIuNzIzLTQuMjAzIDEuMDg0LS44NDMuMzU0LS43MiAxLjE0OS4yMiAxLjQzbDMuOTk0LjkyYy4yOCAxLjMzNy41NiAyLjY3NC44NDIgNC4wMS4yNjMuOTQ3IDEuMDU1IDEuMDg1IDEuNDI2LjI0OS4zNjctMS40My43MzUtMy44NjEgMS4xMDItNS4yOTIgMi44MDItMi41MzIgOC4yMTktNi40MTQgOC4yMTktNi40MTRzNi4xMTkgMTEuMjg2IDcuMzE4IDExLjA5YzEuNDQtLjIzNi0uMTMtNC44ODYtMS44Ni0xNi43NTF6Ii8+CiAgICAgICAgPHBhdGggc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBkPSJNNy41MSAzMC4xMTdMMS44IDM1LjcxOU05LjE5MiAxNy4yMDRMLjYyNSAyNS42MDdNMjEuMzk2IDI4LjYyN2wtOC41NjcgOC40MDMiLz4KICAgIDwvZz4KPC9zdmc+Cg==" alt="flights">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Getting In</h5>
-              <p class="card-text">If you are coming from outside of the Northeast, we recommend flying into Newark International Airport.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-</div>
+
 
     <div class="row">
       <div class="col-md-12" style="display: flex; justify-content: center; margin-top: 5px">
@@ -114,7 +100,7 @@
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">Things to Do Nearby</h5>
-              <p class="card-text">We are right next door to NYC where there are tons of attractions! There are a lot of ways to get there if you would like to explore the area. We would recommend using NJ Transit to get to Penn Station. <br/> <br/>  There are some great towns locally such as Montclair, Ridgewood, Jersey City, and Hoboken where you can also find awesome restaurants and bars.</p>
+              <p class="card-text">We are right next door to Chicago where there are tons of attractions! There are a lot of ways to get there if you would like to explore the area. We would recommend using Chicago Metra to get downtown. <br/> <br/> There are some great towns locally such as Oak Brook, Naperville, Geneva, and Westmont where you can also find awesome restaurants and bars.</p>
             </div>
           </div>
         </div>
@@ -133,30 +119,31 @@
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">Things to Do in NYC</h5>
-              <p class="card-text">Edge NYC <a href="https://redirect.withjoy.com:443/redirect?url=https%3A%2F%2Fwww.edgenyc.com%2Fen&amp;platform=web&amp;eventId=ec695bfa42d2a50996f03ad163a4f65dd0751c45346d7a9ae" target="_blank">Learn more.</a> </p>
+              <h5 class="card-title">Things to Do in Chicago</h5>
+              <p class="card-text">Sears Tower <a href="https://www.willistower.com/experience" target="_blank">Learn more.</a> </p>
 
-              <p class="card-text">Top of the Rock.
-              <a href="https://redirect.withjoy.com:443/redirect?url=https%3A%2F%2Fwww.topoftherocknyc.com%2F&amp;platform=web&amp;eventId=ec695bfa42d2a50996f03ad163a4f65dd0751c45346d7a9ae" target="_blank">Learn more.</a></p>
+              <p class="card-text">The Bean
+              <a href="https://www.choosechicago.com/articles/tours-and-attractions/the-bean-chicago/" target="_blank">Learn more.</a></p>
 
-              <p class="card-text">New York Botanical Garden
-              <a href="https://redirect.withjoy.com:443/redirect?url=https%3A%2F%2Fwww.nybg.org%2F&amp;platform=web&amp;eventId=ec695bfa42d2a50996f03ad163a4f65dd0751c45346d7a9ae" target="_blank">Learn more.</a>
+              <p class="card-text">Chicago Riverwalk
+              <a href="https://www.chicago.gov/city/en/sites/chicagoriverwalk/home.html" target="_blank">Learn more.</a>
             </p>
 
-              <p class="card-text">The Metropolitan Museum of Art
-              <a href="https://redirect.withjoy.com:443/redirect?url=https%3A%2F%2Fwww.metmuseum.org%2F&amp;platform=web&amp;eventId=ec695bfa42d2a50996f03ad163a4f65dd0751c45346d7a9ae" target="_blank">Learn more.</a>
+            <p class="card-text">Navy Pier
+              <a href="https://navypier.org/" target="_blank">Learn more.</a>
             </p>
 
-              <p class="card-text">The Statue of Liberty
-              <a href="https://redirect.withjoy.com:443/redirect?url=https%3A%2F%2Fwww.nps.gov%2Fstli%2Findex.htm&amp;platform=web&amp;eventId=ec695bfa42d2a50996f03ad163a4f65dd0751c45346d7a9ae" target="_blank">Learn more.</a>
+              <p class="card-text">Shedd Aquarium
+              <a href="https://www.sheddaquarium.org/" target="_blank">Learn more.</a>
             </p>
 
-              <p class="card-text">Staten Island Ferry
-              <a href="https://redirect.withjoy.com:443/redirect?url=https%3A%2F%2Fwww.siferry.com%2F&amp;platform=web&amp;eventId=ec695bfa42d2a50996f03ad163a4f65dd0751c45346d7a9ae" target="_blank">Learn more.</a>
+              <p class="card-text">Museum of Science and Industry
+              <a href="https://www.msichicago.org/" target="_blank">Learn more.</a>
             </p>
 
-              <p class="card-text">Smorgasburg
-               <a href="https://redirect.withjoy.com:443/redirect?url=https%3A%2F%2Fwww.smorgasburg.com%2F&amp;platform=web&amp;eventId=ec695bfa42d2a50996f03ad163a4f65dd0751c45346d7a9ae" target="_blank">Learn more.</a>
+
+              <p class="card-text">Eat the Best Food!
+               <a href="https://www.choosechicago.com/articles/food-drink/20-things-to-eat-in-chicago/" target="_blank">Learn more.</a>
             </p>
             </div>
           </div>
@@ -177,7 +164,7 @@
 </body>
 <style>
   .nav-link {
-    color: #f26147 !important;
+    color: #cfa8f0 !important;
   }
 </style>
 

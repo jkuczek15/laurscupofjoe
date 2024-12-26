@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ami and Jay Wedding</title>
+    <title>Lauren & Joe's Wedding</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&amp;display=swap"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&amp;display=swap" media="print" onload="this.media='all'"/>
@@ -21,6 +21,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
     <link href="css/font-awesome/css/all.min.css?ver=1.1.0" rel="stylesheet">
     <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
@@ -51,7 +52,7 @@
         <div class="col-md-12">
           <div class="card-body">
             <h5 class="card-title">When is the RSVP deadline?</h5>
-            <p class="card-text">Please RSVP by <strong> March 1st, 2024 </strong>so we can have an accurate headcount.</p>
+            <p class="card-text">Please RSVP by <strong> May 1st, 2025 </strong>so we can have an accurate headcount.</p>
           </div>
         </div>
       </div>
@@ -74,8 +75,8 @@
                 It will not let you RSVP unless you enter correct name and phone number! For Indian phone numbers, do not enter "91" area code</li>
                 <li>Once you enter all the information, click on Next. You will see the total number of invitations 
                 for you and your family for each event.  Please select the number of people who will be attending 
-                each event. You must also acknowledge our COVID-19 policy to successfully submit the RSVP to us.</li>
-                <li>You will then be sent an email from our system to confirm your RSVP. The email will have a link to the website where you can update your RSVP information in case anything changes. Please check your junk/spam folder if you have not recevied any email from us. All the emails will be coming from <a href="mailto: ajp010121@gmail.com">ajp010121@gmail.com</a></li>
+                each event.</li>
+                <li>You will then be sent an email from our system to confirm your RSVP. The email will have a link to the website where you can update your RSVP information in case anything changes. Please check your junk/spam folder if you have not recevied any email from us. All the emails will be coming from <a href="mailto: joe.kuczek@gmail.com">joe.kuczek@gmail.com</a></li>
               </p>
             </div>
           </div>
@@ -112,9 +113,9 @@
           <div class="col-md-12">
             <div class="card-body">
               <h5 class="card-title">How do I book a hotel reservation?</h5>
-              <p class="card-text">Last Day to Book using our reservation link for a discounted rate: <strong>June 1, 2024</strong> <br/><br/>
-              Most of the wedding festivities will occur at the hall next to Marriott Hotel. We encourage everyone to stay at the hotel using our special reservation rate for your convenience. Up to 4 people can stay in each room! Please use group code, PATEL under "Special Rates" to get a discounted rate. 
-              <p>You can book accommodations by clicking <a href="https://www.marriott.com/en-us/hotels/ewrsd-springhill-suites-woodbridge/overview/" target="_blank">HERE</a></p> </p>
+              <p class="card-text">Last Day to Book using our reservation link for a discounted rate: <strong>May 1st, 2025</strong> <br/><br/>
+              Most of the wedding festivities will occur at the hall next to Marriott Hotel. We encourage everyone to stay at the hotel using our special reservation rate for your convenience. Up to 4 people can stay in each room!
+              <p>You can book accommodations by clicking <a href="#" target="_blank">HERE</a></p> </p>
             </div>
           </div>
         </div>
@@ -146,7 +147,7 @@
           <div class="col-md-12">
             <div class="card-body">
               <h5 class="card-title">Is the wedding indoors or outdoors?</h5>
-              <p class="card-text">All of the events will be held indoors except for the baarat.</p>
+              <p class="card-text">All of the events will be held indoors with the potential for an outdoor cocktail hour.</p>
             </div>
           </div>
         </div>
@@ -163,7 +164,7 @@
           <div class="col-md-12">
             <div class="card-body">
               <h5 class="card-title">Is it okay to take pictures with our phones and cameras during the wedding?</h5>
-              <p class="card-text">Yes! We would love for you to take photos and share them with the wedding hashtag #letsJAm</p>
+              <p class="card-text">Yes! We would love for you to take photos and share them with the wedding hashtag <a href="#">#LaursCupOfJoe</a></p>
             </div>
           </div>
         </div>
@@ -196,7 +197,7 @@
           <div class="col-md-12">
             <div class="card-body">
               <h5 class="card-title">I have a question not answered here; how do I contact you?</h5>
-              <p class="card-text">Please reach out to us at <a href="mailto: qajp010121@gmail.com">ajp010121@gmail.com</a> for any additional questions you have!</p>
+              <p class="card-text">Please reach out to us at <a href="mailto: joe.kuczek@gmail.com">joe.kuczek@gmail.com</a> for any additional questions you have!</p>
             </div>
           </div>
         </div>
@@ -207,7 +208,7 @@
 </div>
 <style>
   .nav-link {
-    color: #f26147 !important;
+    color: #cfa8f0 !important;
   }
 </style>
 

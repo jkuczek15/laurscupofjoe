@@ -55,13 +55,13 @@ body {
 }
 
 a {
-  color: #f58a77;
+  color: #cfa8f0;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #f58a77;
+  color: #093824;
   outline: none;
   text-decoration: none;
 }
@@ -89,7 +89,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::selection {
   color: #fff;
-  background: #f58a77;
+  background: #093824
 }
 
 .fh5co-nav {
@@ -940,10 +940,6 @@ form label {
   margin-left: 3px;
 }
 
-.simply-countdown {
-  /* The countdown */
-  margin-bottom: 2em;
-}
 
 .simply-countdown > .simply-section {
   /* coutndown blocks */
@@ -1193,7 +1189,7 @@ form label {
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: bold;
-  color: #e08a76;
+  color: #cfa8f0;
   font-family: "Sacramento", Arial, serif;
 }
 @media screen and (max-width: 768px) {
@@ -1688,8 +1684,8 @@ form label {
   border: 2px solid #f58a77;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #f366a3 !important;
-  border-color: #f366a3 !important;
+  background: #093824 !important;
+  border-color: #093824 !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
@@ -1797,8 +1793,8 @@ form label {
 }
 
 .view-more-photos {
-  background-color: #e08a76 !important;
-  border: 2px solid #e08a76 !important;
+  background-color: #cfa8f0 !important;
+  border: 2px solid #cfa8f0 !important;
  }
 
 .btn.with-arrow i {

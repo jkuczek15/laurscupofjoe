@@ -53,13 +53,8 @@ body {
     background-position-x: 56%;
     background-position-y: 70%;
     background-size: cover;
-    /* object-position: 45% 50%; */
-    /* background-size: contain; */
     object-fit: scale-down;
-    /* width: 100vw; */
     height: 100vh;
-    /* min-height: 1100px; */
-    /* max-height: 1080px; */
   }
 
 }
@@ -103,16 +98,17 @@ body {
 /*  font-size: 18px;*/
   padding: 5px 0 5px 16px;
 /*  font-weight: 500; */
-}
-.nav-link {
+  }
+  .nav-link {
   color: white !important;  
 }
 .navbar-toggler {
-  background-color: rgba(245, 138, 119, 0.7) !important;
+  background-color: rgba(207, 168, 240, 0.7)!important;
 }
-.letsjam {
+.laurscupofjoe {
   font-family: "Sacramento", Arial, serif;
   font-size: 36px !important;
+  color: #cfa8f0
 }
 
 /* Wedding Event Style */
@@ -186,7 +182,7 @@ body {
       background: rgba(0, 0, 0, 0.3);
       color: #fff; }
     .ww-rsvp-detail .ww-rsvp-form .btn-submit {
-      background-color: rgba(245, 138, 119, 0.8);
+      background-color: rgba(207, 168, 240, 0.8);
       border: 0; }
 
 .ww-rsvp-detail:before {
@@ -237,18 +233,12 @@ a[title="https://www.bbc.com/news/live/world-europe-60517447"] {
   display: none !important;
 }
 
-/* countcount */
-.simply-countdown {
-  /* The countdown */
-  margin-bottom: 18em;
-}
-
 .simply-countdown > .simply-section {
   /* coutndown blocks */
   display: inline-block;
   width: 100px;
   height: 100px;
-  background: #f26147 !important;
+  background: #cfa8f0 !important;
   margin: 0 4px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -408,13 +398,13 @@ body {
 }
 
 a {
-  color: #f58a77;
+  color: #cfa8f0;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #f58a77;
+  color: #093824;
   outline: none;
   text-decoration: none;
 }
@@ -442,7 +432,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::selection {
   color: #fff;
-  background: #f58a77;
+  background: #093824;
 }
 
 .fh5co-nav {
@@ -1296,9 +1286,10 @@ form label {
   margin-left: 3px;
 }
 
-.simply-countdown {
-  /* The countdown */
-  margin-bottom: 2em;
+@media screen and (max-width: 768px) {
+  .background-image-content {
+    padding-top: 14em;
+  }
 }
 
 .simply-countdown > .simply-section {
@@ -1539,7 +1530,7 @@ form label {
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: bold;
-  color: #f26147;
+  color: #cfa8f0;
   font-family: "Sacramento", Arial, serif;
 }
 @media screen and (max-width: 768px) {
@@ -2032,8 +2023,8 @@ form label {
   color: #fff;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #f366a3 !important;
-  border-color: #f366a3 !important;
+  background: #093824 !important;
+  border-color: #093824 !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
