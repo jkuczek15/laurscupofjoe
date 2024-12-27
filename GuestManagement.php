@@ -5,7 +5,7 @@ $entered_password = isset($_GET['password']) ? $_GET['password'] : null;
 
 if ($entered_password !== $user_password) {
 	?>
-		<form action="viewGuestLimits.php" method="GET">
+		<form action="GuestManagement.php" method="GET">
 			<label for="password">Enter Password:</label>
 			<input type="text" name="password" id="password" />
 			<input type="submit" value="Submit" />
@@ -84,7 +84,7 @@ if ($entered_password !== $user_password) {
 	    		<div class="col-md-2">
 	    			<button type="button" class="btn btn-success" id="csv-export">Export to CSV</button>
 	    		</div>
-	    		<form method="GET" action="viewGuestLimits.php">
+	    		<form method="GET" action="GuestManagement.php">
 	    			<div class="col-md-2 form-inline">
 		    			<span><?= $guest_count ?> guests</span>
 		    		</div>
@@ -179,7 +179,7 @@ if ($entered_password !== $user_password) {
     		$(document).ready(() => {
     			$('select').selectpicker();
     			$('#csv-export').click(() => {
-    				$('#guest-limits-table').tableExport({fileName: 'viewGuestLimits', type:'csv'});
+    				$('#guest-limits-table').tableExport({fileName: 'Guests', type:'csv'});
     			});
     		});
     	</script>

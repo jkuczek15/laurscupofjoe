@@ -77,9 +77,9 @@
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">Staying at the Hyatt Lodge in Oak Brook</h5>
-              <p class="card-text">Last Day to Book using our reservation link: <strong>June 1, 2025</strong> <br/><br/>
+              <p class="card-text">Last Day to Book using our reservation link: <strong>October 7th, 2025</strong> <br/><br/>
               All of the wedding festivities will be taking place at the hotel. You can use our discounted link to book your reservation. It is not required to stay at the hotel.
-              <p>You can book accommodations by clicking <a href="#"target="_blank">HERE</a></p>
+              <p>You can book accommodations by clicking <a href="https://www.hyatt.com/en-US/group-booking/CHILO/G-11VK"target="_blank">HERE</a></p>
               </p>
             </div>
           </div>
